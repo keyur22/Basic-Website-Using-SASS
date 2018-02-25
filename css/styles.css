@@ -1,0 +1,153 @@
+body {
+  font-family: arial;
+  background: #f8f9fb;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#main-nav {
+  background-color: #032f3e;
+}
+#main-nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#main-nav li {
+  width: 16.66667%;
+  padding: 16px;
+}
+#main-nav a {
+  color: #f8f9fb;
+  text-decoration: none;
+  padding: 16px;
+}
+#main-nav a:hover {
+  background-color: #044156;
+}
+
+section h1 {
+  font-size: 24px;
+  color: #032f3e;
+}
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: right;
+}
+.lead-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.lead-banner img {
+  width: 100%;
+}
+.lead-banner span {
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+.lead-banner span .title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.lessons-banner img {
+  width: 100%;
+}
+.lessons-banner span {
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+.lessons-banner span .title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.lessons-banner li {
+  max-width: 50%;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 60px 0;
+}
+
+#services {
+  margin-bottom: 60px;
+}
+#services li {
+  width: 33.33333%;
+  text-align: center;
+}
+#services img {
+  float: left;
+  width: 60%;
+  margin: 20px 20%;
+}
+#services a {
+  text-decoration: none;
+  color: #032f3e;
+  font-weight: bold;
+}
+#services a:hover {
+  color: yellow;
+}
+#services ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#projects li {
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 23.5%;
+}
+#projects li:nth-child(4n) {
+  margin-right: 0;
+}
+#projects img {
+  width: 100%;
+}
+
+
