@@ -1,6 +1,6 @@
-# Basic-Website-Using-SASS
+# basic-scss-website
 A simple website taken from youtube 
 
-Technologies Used: HTML5, CSS3, SASS
+Technologies Used: HTML5, CSS3, SCSS
 
-Live - https://keyur22.github.io/Basic-Website-Using-SASS/
+Live - https://keyur22.github.io/basic-scss-website/
